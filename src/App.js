@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-// Components
-import Dashboard from './components/ant/Dashboard'
+// Routes
+import Web from './components/routes/Web'
 
 const App = () => {
   return (
-    <Dashboard />
+    <Router>
+      <Route exact component={Web} />
+    </Router>
   )
 }
 

@@ -1,17 +1,39 @@
 .logo {
-  height: 32px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 16px;
+  /* background-color: #00bd88 !important; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px !important;
+  margin: 0 0 20px 0 !important;
+}
+
+.logo h1,
+.logo h2,
+.logo h3,
+.logo h4,
+.logo h5,
+.logo h6 {
+  color: #fff;
+  overflow: visible;
+  margin: 0 !important;
+}
+
+.ant-layout-sider {
+  /* background-color: #fff; */
+}
+
+.ant-menu {
+  /* background-color: #fff !important; */
 }
 
 .site-layout .site-layout-background {
-  background: #fff;
+  background-color: #fff !important;
 }
 
 .trigger {
   font-size: 18px;
   line-height: 64px;
-  padding: 0 24px;
   cursor: pointer;
   transition: color 0.3s;
 }
@@ -24,8 +46,4 @@
   height: 32px;
   background: rgba(255, 255, 255, 0.2);
   margin: 16px;
-}
-
-.site-layout .site-layout-background {
-  background: #fff;
 }
